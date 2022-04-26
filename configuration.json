@@ -1,0 +1,41 @@
+{
+    "performance_diagnostics": {
+        "enabled": "True",
+        "keys": [
+            "Devices",
+            "Monitor Instances",
+            "Attributes"
+        ]
+    },
+    "deployment_analysis_event_summary": {
+        "enabled": "True"
+    },
+    "managed_devices": {
+        "enabled": "True",
+        "data": {
+            "stringToSearch": null,
+            "fieldToSearch": null,
+            "agentFilterCriteria": "",
+            "directFilterCriteria": {
+                "isConnected": "true",
+                "isDisconnected": "true",
+                "agentConnected": "true",
+                "agentDisconnected": "true"
+            }
+        }
+    },
+    "list_disconnected_agents": {
+        "enabled": "True",
+        "data": {
+            "stringToSearch": null,
+            "fieldToSearch": null,
+            "agentFilterCriteria": "",
+            "directFilterCriteria": {
+                "isConnected": "true",
+                "isDisconnected": "true",
+                "agentConnected": "false",
+                "agentDisconnected": "true"
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "qa": {
+        "username": "",
+        "password": "",
+        "key": "",
+        "truesightConsoleURL": "",
+        "tsimServer": {
+            "fqdn": [
+                "",
+                ""
+            ],
+            "pronetConfig": {
+                "pronet.instance.large.max": 250000
+            }
+        }
+    },
+    "prod": {
+        "username": "",
+        "password": "",
+        "key": "",
+        "truesightConsoleURL": "",
+        "tsimServer": {
+            "fqdn": [
+                "",
+                ""
+            ],
+            "pronetConfig": {
+                "pronet.instance.large.max": 250000
+            }
+        }
+    }
+}

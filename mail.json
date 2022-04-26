@@ -1,0 +1,19 @@
+{
+    "subject": "TSOM Usage & Devices Report",
+    "from": "baymax@parkplacetech.com",
+    "qa": {
+        "to": [
+            "abc@company.com"
+        ]
+    },
+    "prod": {
+        "to": [
+            "xyz@company.com",
+            "abc@company.com"
+        ],
+        "cc": [
+            "xyz@company.com",
+            "abc@company.com"
+        ]
+    }
+}
